@@ -1,0 +1,8 @@
+import random
+
+# Generate a random number between 1 and 10
+number = random.randint(1, 10)
+
+# Save the number to a text file
+with open('random-number.txt', 'w') as f:
+    f.write(str(number))
